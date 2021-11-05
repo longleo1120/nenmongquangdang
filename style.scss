@@ -1,0 +1,263 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.header{
+    .top-head{
+        background-color: #0f7a3e;
+        padding-top: 5px;
+        color: white;
+    }
+    span{
+        display: inline-block;
+        padding: 5px;
+    }
+    .bot-head{
+        text-align: center;
+        padding: 10px;
+        a{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+.banner{
+    .container-fluid{
+        padding: 0;
+    }
+}
+.gioithieu{
+    background-color: white;
+    padding-top: 58px;
+    h3{
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.develop{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .box{
+        border: 1px solid #ebeef0;
+        padding: 25px;
+        position: relative;
+        text-align: center;
+        span{
+            font-size: 36px ;
+            font-weight: bold;
+            color: red;
+        }
+    }
+}
+
+.prizes{
+    background-image: url(./src/img/prize.png);
+    text-align: center;
+    padding: 25px;
+    color: white;
+    input{
+        background: transparent;
+        &::-webkit-input-placeholder{
+        color: white;
+        }
+        ::-moz-input-placeholder{
+        color: white;
+        }
+    }
+
+}
+.service{
+    background-image:   url(./src/img/bg-svv.png);
+    padding-top: 30px;
+    .card{
+        margin-right: 10px;
+    }
+    .title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .slick-slider{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        h5{
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .slider{
+        position: relative;
+    }
+    
+    &::before{
+        background-color: #e53;
+        content: '';
+        display: block;
+       
+        position: absolute;
+        width: 100%;
+    }
+}
+.card{
+    position: relative;
+    background: transparent;
+    border: none;
+    .card-body{
+        padding: 10px 0;
+    }
+}
+
+.hoso{
+    background-color: #0f7a3e;
+    background-image: url(./src/img/bg-hs.png);
+    .title{
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+        h2{
+            text-transform: uppercase;
+        }
+    }
+    .content-hs{
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        .text{
+            color: white;
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+        }
+    }
+}
+.ykien{
+    .at{
+        padding-top: 20px;
+        img{
+            width: auto;
+        }
+        
+    }
+    background-image: url(./src/img/bg-yk.png);
+    p{
+        font-size: 16px;
+    }
+    p::after{
+        display: inline-block;
+        color: red;
+        content: "__________________________________________________________";
+    }
+    .author{
+        width: fit-content;
+    }
+    .ten{
+        text-align: center;
+        padding: 60px 0px 0 15px;
+    }
+    .list-ykien{
+        img{
+            width: 60px;
+        }
+        display: flex;
+        padding: 15px;
+        .title-list{
+            padding-left: 10px;
+        }
+        h3{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    position: absolute;
+    bottom: 70px;
+    color: #d5122f;
+    border: 0;
+    background: none;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-prev:after {
+	  content: "\f104";
+    font: 40px/1 'FontAwesome';
+}
+
+.slick-next {
+    right: 20px;
+    text-align: right;
+}
+
+.slick-next:after {
+	   content: "\f105";
+     font: 40px/1 'FontAwesome';
+}
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+    color: #7e7e7e;
+}
+
+.duan{
+    background-image: url(./src/img/bg-duan.png);
+    .title{
+        text-align: center  ;
+        padding: 30px;
+    }
+    padding-bottom: 20px;
+    .list-duan{
+        h5{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+.doitac{
+    padding-bottom: 20px;
+    .title{
+        text-transform: uppercase;
+        padding: 20px;
+        font-size: 30px;
+    }
+}
+
+footer{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+}
