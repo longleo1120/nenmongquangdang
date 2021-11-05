@@ -93,7 +93,9 @@ img {
 }
 
 .service {
-  background-image: url(./src/img/bg-svv.png);
+  background-image: url(./src/img/bg-svv.png), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 204, 204, 0.5)), to(rgba(250, 222, 204, 0.5)));
+  background-image: url(./src/img/bg-svv.png), linear-gradient(rgba(255, 204, 204, 0.5), rgba(250, 222, 204, 0.5));
+  background-blend-mode: overlay;
   padding-top: 30px;
 }
 
@@ -142,8 +144,9 @@ img {
 }
 
 .hoso {
-  background-color: #0f7a3e;
-  background-image: url(./src/img/bg-hs.png);
+  background-image: url(./src/img/bg-hs.png), -webkit-gradient(linear, left top, left bottom, from(#235b3a), to(#235b1c));
+  background-image: url(./src/img/bg-hs.png), linear-gradient(#235b3a, #235b1c);
+  background-blend-mode: overlay;
 }
 
 .hoso .title {
@@ -176,7 +179,10 @@ img {
 }
 
 .ykien .at {
+  background-color: #36a771;
+  background-blend-mode: overlay;
   padding-top: 20px;
+  color: white;
 }
 
 .ykien .at img {
@@ -189,7 +195,7 @@ img {
 
 .ykien p::after {
   display: inline-block;
-  color: red;
+  color: white;
   content: "__________________________________________________________";
 }
 

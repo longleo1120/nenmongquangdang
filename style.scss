@@ -82,7 +82,8 @@ img{
 
 }
 .service{
-    background-image:   url(./src/img/bg-svv.png);
+    background-image:   url(./src/img/bg-svv.png), linear-gradient(rgba(255,204,204,0.5),rgba(250,222,204,0.5));
+    background-blend-mode: overlay;
     padding-top: 30px;
     .card{
         margin-right: 10px;
@@ -124,8 +125,8 @@ img{
 }
 
 .hoso{
-    background-color: #0f7a3e;
-    background-image: url(./src/img/bg-hs.png);
+    background-image: url(./src/img/bg-hs.png), linear-gradient(rgba(35,91,58,1), rgba(35,91,28,1));
+    background-blend-mode: overlay;
     .title{
         padding-top: 30px;
         text-align: center;
@@ -149,7 +150,10 @@ img{
 }
 .ykien{
     .at{
+        background-color: #36a771;
+        background-blend-mode: overlay;
         padding-top: 20px;
+        color: white;
         img{
             width: auto;
         }
@@ -161,10 +165,11 @@ img{
     }
     p::after{
         display: inline-block;
-        color: red;
+        color: white;
         content: "__________________________________________________________";
     }
     .author{
+        
         width: fit-content;
     }
     .ten{
@@ -172,6 +177,7 @@ img{
         padding: 60px 0px 0 15px;
     }
     .list-ykien{
+        
         img{
             width: 60px;
         }
